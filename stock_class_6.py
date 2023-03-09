@@ -1,5 +1,6 @@
-from expects_impl import *
-from generic_expects_impl import *
+from expects_impl_7 import *
+from generic_expects_impl_8 import *
+from variable_param_impl_9 import *
 
 
 class A:
@@ -19,6 +20,14 @@ class A:
 
     def set_string(self, new_string):
         self._string = new_string
+
+    def all_integers(self, param1, param2, param3):
+        # some code...
+        pass
+
+    def all_strings(self, param1, param2, param3):
+        # some code...
+        pass
 
 
 def main():

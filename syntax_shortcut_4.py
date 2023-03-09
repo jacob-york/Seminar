@@ -9,8 +9,8 @@ def decorator(function):
 # python syntax shortcut:
 
 @decorator
-def my_function(param1, param2):
+def concatenate(param1, param2):
     return param1 + param2
 
 
-print(my_function("water", "fall"))     # console output: "fallwater"
+print(concatenate("water", "fall"))     # console output: "fallwater"

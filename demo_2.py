@@ -1,14 +1,14 @@
-from decorator_impl import decorator
+from decorator_impl_3 import decorator
 
 
 # consider the following:
 
-def my_function(param1, param2):
+def concatenate(param1, param2):
     return param1 + param2
 
 
-print(my_function("water", "fall"))     # console output: "waterfall"
+print(concatenate("water", "fall"))     # console output: "waterfall"
 
-my_function = decorator(my_function)    # applying decorator; This decorator modifies my_function **post-definition**:
+concatenate = decorator(concatenate)    # applying decorator; This decorator modifies my_function **post-definition**:
 
-print(my_function("water", "fall"))     # console output: "fallwater"
+print(concatenate("water", "fall"))     # console output: "fallwater"
