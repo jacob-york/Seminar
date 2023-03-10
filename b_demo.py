@@ -1,4 +1,4 @@
-from decorator_impl_3 import decorator
+from c_simple_decorator import decorator
 
 
 # consider the following:
