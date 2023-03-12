@@ -7,7 +7,6 @@ new_name("Hello World!")
 # print()       # calling print
 
 
-# returns 'function', since print is a function.
-return_val = type(print)
+# prints 'function', since print is a function.
+print(type(print))
 
-print(return_val)
